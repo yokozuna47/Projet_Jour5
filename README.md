@@ -6,9 +6,9 @@
 
 ## 📋 Vue d'ensemble
 
-Ce projet est une **implémentation éducative complète d'un ransomware** développée pendant une formation en cybersécurité. Il démontre les concepts fondamentaux de chiffrement, communication réseau, gestion de fichiers et intégrité de données en C.
+Ce projet est une **implémentation éducative complète d'un ransomware** développée pendant une formation en cybersécurité Base du langage C, écriture malware en C . Il démontre les concepts fondamentaux de chiffrement, communication réseau, gestion de fichiers et intégrité de données en C.
 
-**⚠️ Avertissement légal** : Ce projet est destiné à des fins éducatives uniquement, dans un environnement contrôlé (VM isolée). Son utilisation à des fins malveillantes est strictement interdite et illégale.
+**⚠️ Avertissement légal** : Ce projet est destiné à des fins éducatives uniquement, dans un environnement contrôlé (VM isolée) (Sandbox). Son utilisation à des fins malveillantes est strictement interdite et illégale.
 
 ---
 
@@ -460,7 +460,7 @@ Pour une sécurité réelle, utiliser :
 
 ## 📖 Documentation Additionnelle
 
-Pour plus de détails sur chaque phase :
+Pour plus de détails sur chaque phase (Tous les fichiers sont dans les repertoires Vagrant et TP):
 
 - **[PHASE1_GUIDE.md](./docs/PHASE1_GUIDE.md)** : Scanner, Timer, Config
 - **[PHASE2_ROT13_CAESAR.md](./docs/PHASE2_ROT13_CAESAR.md)** : Caesar & ROT13
@@ -469,15 +469,15 @@ Pour plus de détails sur chaque phase :
 
 ---
 
-## 🤝 Contribution
+## 🤝 Contributeurs
 
-Les contributions sont bienvenues ! Pour contribuer :
+Les contributions sont :
 
-1. Fork le repository
-2. Créer une branche (`git checkout -b feature/AmazingFeature`)
-3. Commit les changements (`git commit -m 'Add AmazingFeature'`)
-4. Push la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
+1. Ba Issiakha
+2. Enzo Benoit
+3. Ikram Lakrib
+4. Godwill Louhou
+5. Olivier Merle
 
 ---
 
@@ -489,46 +489,13 @@ Ce projet est fourni à des fins **éducatives uniquement**. Voir [LICENSE](LICE
 
 ## 👨‍💻 Auteur
 
-**ypkp** - Cybersecurity Student  
-- 🔗 GitHub : [@yokozuna47](https://github.com/yokozuna47)
-- 📧 Contact : voir profil GitHub
+**Etudiants IPSSI** -  Master M2 Cyberse  
 
----
-
-## 🙏 Crédits
-
-- **Formateur** : Équipe formation cybersécurité
-- **Ressources** : Documentation standard C, man pages
-- **Inspiration** : Concepts de ransomware éducatifs
-
----
-
-## ❓ FAQ
-
-### Q: Je peux utiliser ce code pour X ?
-**R:** Non. Ce projet est STRICTEMENT éducatif. Toute utilisation malveillante est illégale.
-
-### Q: Pourquoi pas de chiffrement fort ?
-**R:** C'est un exercice pédagogique pour apprendre les concepts de base. En production, utiliser AES/RSA.
-
-### Q: Comment tester le C2 Client ?
-**R:** Créer un serveur C2 qui écoute sur `127.0.0.1:4444` (exercice bonus).
-
-### Q: Le code compile en Windows ?
-**R:** Partiellement (XOR, Caesar, ROT13, Checksum). Les sockets diffèrent (WinSock2 vs Linux).
-
-### Q: Je peux modifier le code ?
-**R:** Oui, pour des fins éducatives. Partagez vos améliorations !
-
----
-
-## 📞 Support
-
-Pour des questions ou problèmes :
-
-1. Vérifier la [documentation](./docs/)
-2. Vérifier les [Issues GitHub](https://github.com/yokozuna47/Projet_Jour5/issues)
-3. Créer une nouvelle Issue avec détails
+1. Ba Issiakha
+2. Enzo Benoit
+3. Ikram Lakrib
+4. Godwill Louhou
+5. Olivier Merle
 
 ---
 
@@ -538,4 +505,4 @@ Pour des questions ou problèmes :
 
 ---
 
-*"La cybersécurité, c'est comprendre comment les systèmes peuvent être compromis pour mieux les protéger."*
+*"Projet encadré par Dorian Boire."*
