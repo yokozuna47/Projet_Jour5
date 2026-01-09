@@ -462,11 +462,6 @@ Pour une sécurité réelle, utiliser :
 
 Pour plus de détails sur chaque phase (Tous les fichiers sont dans les repertoires Vagrant et TP):
 
-- **[PHASE1_GUIDE.md](./docs/PHASE1_GUIDE.md)** : Scanner, Timer, Config
-- **[PHASE2_ROT13_CAESAR.md](./docs/PHASE2_ROT13_CAESAR.md)** : Caesar & ROT13
-- **[PHASE3_XOR_CHECKSUM.md](./docs/PHASE3_XOR_CHECKSUM.md)** : XOR & CRC32
-- **[MODULE8_C2_CLIENT.md](./docs/MODULE8_C2_CLIENT.md)** : C2 Client & Sockets
-
 ---
 
 ## 🤝 Contributeurs
