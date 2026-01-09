@@ -1,0 +1,82 @@
+# Exécutables
+ransomware
+ransomware.exe
+*.o
+*.a
+*.so
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# VM
+.vagrant/
+Vagrant.lock
+*.box
+
+# Fichiers de build
+build/
+dist/
+*.dSYM/
+*.su
+
+# Fichiers de sortie du programme
+rapport_encrypted*.txt
+rapport_decrypted*.txt
+rapport_xor*.txt
+rapport_caesar*.txt
+rapport_rot13*.txt
+rapport_crc*.txt
+*.encrypted
+*.decrypted
+
+# Fichiers de configuration locaux
+config.local.txt
+.env
+
+# Logs
+*.log
+debug.log
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Fichiers de système
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python/Virtual environments
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+
+# Git
+.git/
+
+# Fichiers sensibles (à ne pas committer)
+*.key
+*.pem
+*.password
+secrets/
+
+# Dossier de test personnels
+test_personal/
+my_test/
